@@ -4,6 +4,7 @@ Markdown for reports at work???
 
 ## Install & configure MacTex
 ```
+brew install imagemagick
 brew cask install mactex
 
 sudo tlmgr repository add http://ftp.ktug.org/KTUG/texlive/tlnet ktug
@@ -68,3 +69,7 @@ Content [^1]
 
 [^1]: Hi! This is a footnote
 ```
+
+## Refs.
+- MPE Docs, https://shd101wyy.github.io/markdown-preview-enhanced/#/
+- Pandoc's Markdown, https://pandoc.org/MANUAL.html
